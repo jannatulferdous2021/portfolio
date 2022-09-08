@@ -24,7 +24,7 @@ body{
 }
 /* banner section style  */
 .ban_img{
-    background-image: url(/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
