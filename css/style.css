@@ -1,0 +1,157 @@
+/* common color  */
+body{
+    background-color: #222222 !important;
+}
+/* navbar section style  */
+.logo{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.menu ul li a{
+    color: #FFFFFF !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.fa-solid{
+
+    color: #FFFFFF !important;
+    font-size: 30px;
+}
+/* banner section style  */
+.ban_img{
+    background-image: url(/images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 75% 100%, 0 91%);
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 75% 100%, 0 91%);
+}
+.ban_text{
+    margin-top: 50px;
+}
+.ban_text{
+    color:#FFFFFF;
+    font-family: 'Combo', cursive;
+}
+.ban_text h1{
+    font-size: 50px;
+    font-weight: bold !important;
+}
+.ban_img h4{
+    font-size: 35px;
+}
+.ban-btn{
+    background-color:#B2C251;
+}
+/* about section style  */
+.about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about_text{
+    color: #FFFFFF !important;
+}
+.about_text h1{
+    font-size: 50px;
+    transition: all 4s linear 0.3s;
+    font-family: 'Combo', cursive;
+}
+.about_img{
+    width: 100%;
+}     
+
+/* skill section  */
+
+.skill-title{
+    color: #FFFF;
+    font-family: 'Combo', cursive;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+.card{
+    border-radius: 20px;
+    background-color: #333333 !important;
+}
+.card-text{
+    color: #FFFFFF !important;
+}
+/* contact section style  */
+.contact{
+    margin-top: 150px;
+
+}
+.contact h1{
+    color: #FFFFFF;
+    font-family: 'Combo', cursive;
+}
+.input{
+    background-color: #333333;
+    outline: none;
+    border-style: none;
+}
+.details{
+    color: #FFFFFF !important;
+}
+.details h1{
+    font-family: 'Combo', cursive;
+}
+.send-btn{
+    background-color: #B2C251;
+    border-radius: 30px;
+    font-weight: bold;
+    outline: none;
+}
+/* footer section start  */
+footer{
+    background-color: #333333 !important;
+}
+.footer-text{
+    color: #FFFFFF !important;
+}
+.ficon{
+    color: #FFFFFF !important;
+}
+
+
+/* =========
+Media Queries
+============*/
+
+@media (max-width: 575.98px) { 
+    .ban-text{
+       background-image: 100vh;
+    }
+    .ban-text{
+        margin-top:0px;
+    }
+    .about_img{
+        margin-top: 50px;
+    }
+    .details{
+        margin-top: 80px;
+    }
+    .fa-solid{
+        position: absolute;
+        bottom: 40px;
+    }
+}
+@media (max-width: 767.98px) { 
+    .ban-text{
+        background-image: 100vh;
+     }
+ }
+ @media (max-width: 991.98px) { 
+  .fa-solid{
+    position: absolute;
+    bottom: 40px;
+  }
+  }
